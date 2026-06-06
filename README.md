@@ -147,6 +147,6 @@ After sending a message in a test, verify delivery via the [Mailexam API](https:
 ## See also
 
 - [Mailexam Phalcon guide (wiki)](https://wiki.mailexam.ru/en/examples/phalcon/)
-- [Laravel reference implementation](https://github.com/mailexam/Laravel) — another PHP stack
+- [Laravel](https://github.com/mailexam/Laravel), [Symfony](https://github.com/mailexam/Symfony), [Yii](https://github.com/mailexam/Yii) — other PHP frameworks
 - [phalcon/incubator-mailer](https://github.com/phalcon/incubator-mailer)
 - [Mailexam API documentation](https://mailexam.ru/api)
