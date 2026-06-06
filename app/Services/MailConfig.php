@@ -14,7 +14,7 @@ final class MailConfig
 
         $config = [
             'driver' => 'smtp',
-            'host' => $login . '.mailexam.ru',
+            'host' => $login . '.mailexam.io',
             'port' => $port,
             'username' => $login,
             'password' => getenv('MAILEXAM_PASSWORD') ?: '',

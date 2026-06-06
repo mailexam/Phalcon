@@ -1,6 +1,6 @@
 # Phalcon + Mailexam
 
-Minimal [Phalcon](https://phalcon.io/) example that sends test mail through [Mailexam](https://mailexam.ru/) SMTP via [phalcon/incubator-mailer](https://github.com/phalcon/incubator-mailer).
+Minimal [Phalcon](https://phalcon.io/) example that sends test mail through [Mailexam](https://mailexam.io/) SMTP via [phalcon/incubator-mailer](https://github.com/phalcon/incubator-mailer).
 
 Based on the [Mailexam Phalcon guide](https://wiki.mailexam.ru/en/examples/phalcon/).
 
@@ -15,7 +15,7 @@ From your Mailexam welcome email or dashboard:
 |----------|-------------|
 | `MAILEXAM_LOGIN` | SMTP login (for example, `xxxxx`) |
 | `MAILEXAM_PASSWORD` | SMTP password (paired with the login) |
-| Host | `{MAILEXAM_LOGIN}.mailexam.ru` (built in `app/Services/MailConfig.php`) |
+| Host | `{MAILEXAM_LOGIN}.mailexam.io` (built in `app/Services/MailConfig.php`) |
 
 Verify the Phalcon extension is loaded:
 
@@ -122,7 +122,7 @@ variables:
   MAIL_FROM: "noreply@example.test"
 ```
 
-After sending a message in a test, verify delivery via the [Mailexam API](https://mailexam.ru/api).
+After sending a message in a test, verify delivery via the [Mailexam API](https://mailexam.io/api).
 
 ## Troubleshooting
 
@@ -132,7 +132,7 @@ After sending a message in a test, verify delivery via the [Mailexam API](https:
 
 **TLS or authentication failed**
 
-- Host must be `{login}.mailexam.ru`, where `{login}` matches `MAILEXAM_LOGIN`.
+- Host must be `{login}.mailexam.io`, where `{login}` matches `MAILEXAM_LOGIN`.
 - Login and password must come from the same Mailexam project.
 
 **Port 587**
@@ -149,4 +149,4 @@ After sending a message in a test, verify delivery via the [Mailexam API](https:
 - [Mailexam Phalcon guide (wiki)](https://wiki.mailexam.ru/en/examples/phalcon/)
 - [Laravel](https://github.com/mailexam/Laravel), [Symfony](https://github.com/mailexam/Symfony), [Yii](https://github.com/mailexam/Yii) — other PHP frameworks
 - [phalcon/incubator-mailer](https://github.com/phalcon/incubator-mailer)
-- [Mailexam API documentation](https://mailexam.ru/api)
+- [Mailexam API documentation](https://mailexam.io/api)
